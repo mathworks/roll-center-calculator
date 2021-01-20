@@ -1,0 +1,103 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1284415705" file="C:\GitLabProject\RollCenterCalculator\AppInstaller\Roll Center Calculator.mlappinstall.prj" location="C:\GitLabProject\RollCenterCalculator\AppInstaller" name="Roll Center Calculator.mlappinstall" target="target.mlapps" target-name="Package App">
+    <param.appname>Roll Center Calculator.mlappinstall</param.appname>
+    <param.authnamewatermark>Nobu Iijima</param.authnamewatermark>
+    <param.email>niijima@mathworks.com</param.email>
+    <param.company>MathWorks</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Calculate Roll Center</param.summary>
+    <param.description>This submission contains a set of the .mlapp file and the .m function files to calculate the roll-center height.
+The model is built for the student teams participating in the automotive competitions.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>4b9a7b69-c02f-4fd9-9e69-6b4a3cec0be7</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>C:\GitLabProject\RollCenterCalculator\rollCenterCalculator.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\GitLabProject\RollCenterCalculator\HelperFunction\getIC.m</file>
+      <file>C:\GitLabProject\RollCenterCalculator\HelperFunction\getNum.m</file>
+      <file>C:\GitLabProject\RollCenterCalculator\HelperFunction\getRC.m</file>
+      <file>C:\GitLabProject\RollCenterCalculator\HelperFunction\getTireData.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\GitLabProject\RollCenterCalculator" name="AppInstaller" optional="false">C:\GitLabProject\RollCenterCalculator\AppInstaller</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
