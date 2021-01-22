@@ -29,6 +29,7 @@ This submission contains a set of the .mlapp file and the .m function files to c
 
 ## What are the Inputs
 ・Center of gravity position
+
 ・Tire information including tire radius, width, track, and wheelbase
 
 
