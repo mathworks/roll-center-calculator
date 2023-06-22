@@ -52,7 +52,7 @@ This submission contains a set of the .mlapp file and the .m function files to c
 ## Product Requirements
 
 The models are developed in MATLAB R2020b version and use the following MathWorks products:
-1. [MATLAB](https://www.mathworks.com/products/matlab)
+1. [MATLAB](https://www.mathworks.com/products/matlab.html)
 
 
 ## Learning Resources
